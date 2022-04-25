@@ -6,12 +6,12 @@
     ,
 {"resources":"sefscreen", "role":"Guest"}
     ,
-{"resources":"create", "role":"Guest"}
-    ,
-{"resources":"getall", "role":"Guest"}
-    ,
 {"resources":"collegecreate", "role":"Guest"}
     ,
 {"resources":"collegegetall", "role":"Guest"}
+    ,
+{"resources":"create", "role":"Guest"}
+    ,
+{"resources":"getall", "role":"Guest"}
     
 ]

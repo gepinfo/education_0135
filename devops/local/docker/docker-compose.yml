@@ -237,7 +237,7 @@ services:
     image: systementry-0135
     container_name: systementry-0135
     ports: 
-      - 8010:8010
+      - 8013:8013
     env_file: .env
     depends_on:
       - mongo
@@ -253,7 +253,7 @@ services:
     image: school-0135
     container_name: school-0135
     ports: 
-      - 8011:8011
+      - 8014:8014
     env_file: .env
     depends_on:
       - mongo
@@ -269,7 +269,7 @@ services:
     image: college-0135
     container_name: college-0135
     ports: 
-      - 8012:8012
+      - 8015:8015
     env_file: .env
     depends_on:
       - mongo

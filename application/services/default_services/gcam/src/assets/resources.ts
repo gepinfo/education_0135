@@ -445,56 +445,6 @@ export const resource_types = [
     ]
   },
   {
-    "resource_name": "create",
-    "resource_type": "screen",
-    "roles": [
-      "admin", "user"
-    ],
-    "components": [{
-      "label_1425": {
-        "id": "878979",
-        "roles": [ "admin" ]
-      },
-      "textbox_6272": {
-        "id": "135979",
-        "roles": [ "admin" ]
-      },
-      "label_2437": {
-        "id": "343979",
-        "roles": [ "admin" ]
-      },
-      "dropdown_73821": {
-        "id": "738291",
-        "roles": [ "admin" ]
-      }
-    }]
-  },
-  {
-    "resource_name": "getall",
-    "resource_type": "screen",
-    "roles": [
-      "admin", "user"
-    ],
-    "components": [{
-      "label_1425": {
-        "id": "878979",
-        "roles": [ "admin" ]
-      },
-      "textbox_6272": {
-        "id": "135979",
-        "roles": [ "admin" ]
-      },
-      "label_2437": {
-        "id": "343979",
-        "roles": [ "admin" ]
-      },
-      "dropdown_73821": {
-        "id": "738291",
-        "roles": [ "admin" ]
-      }
-    }]
-  },
-  {
     "resource_name": "collegecreate",
     "resource_type": "screen",
     "roles": [
@@ -521,6 +471,56 @@ export const resource_types = [
   },
   {
     "resource_name": "collegegetall",
+    "resource_type": "screen",
+    "roles": [
+      "admin", "user"
+    ],
+    "components": [{
+      "label_1425": {
+        "id": "878979",
+        "roles": [ "admin" ]
+      },
+      "textbox_6272": {
+        "id": "135979",
+        "roles": [ "admin" ]
+      },
+      "label_2437": {
+        "id": "343979",
+        "roles": [ "admin" ]
+      },
+      "dropdown_73821": {
+        "id": "738291",
+        "roles": [ "admin" ]
+      }
+    }]
+  },
+  {
+    "resource_name": "create",
+    "resource_type": "screen",
+    "roles": [
+      "admin", "user"
+    ],
+    "components": [{
+      "label_1425": {
+        "id": "878979",
+        "roles": [ "admin" ]
+      },
+      "textbox_6272": {
+        "id": "135979",
+        "roles": [ "admin" ]
+      },
+      "label_2437": {
+        "id": "343979",
+        "roles": [ "admin" ]
+      },
+      "dropdown_73821": {
+        "id": "738291",
+        "roles": [ "admin" ]
+      }
+    }]
+  },
+  {
+    "resource_name": "getall",
     "resource_type": "screen",
     "roles": [
       "admin", "user"
